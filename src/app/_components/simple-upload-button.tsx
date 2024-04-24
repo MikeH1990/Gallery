@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
@@ -92,7 +93,7 @@ export function SimpleUploadButton() {
         },
       );
     },
-    onUploadError(error) {
+    onUploadError(error: any) {
       posthog.capture("upload_error", { error });
       toast.dismiss("upload-begin");
       toast.error("Upload failed");
