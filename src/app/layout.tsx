@@ -46,7 +46,9 @@ export default function RootLayout({
           </div>
           {modal}
           <div id="modal-root" />
+          <div className="bg-slate-600">
           <Toaster/>
+          </div>
         </body>
       </html>
     </ClerkProvider>
