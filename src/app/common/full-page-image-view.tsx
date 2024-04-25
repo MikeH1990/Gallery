@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { clerkClient } from "@clerk/nextjs/server";
 import { Button } from "~/components/ui/button";
 import { deleteImage, getImage } from "~/server/queries";
