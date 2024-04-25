@@ -15,6 +15,6 @@
 - [x] Routing/image page (parallel routing)
 - [x] Fix upload button to be less dogass
 - [x] ShadUI toasts
-- [] Analytics (posthog)
+- [x] Analytics (posthog)
 - [] Delete button (/w Server ACtions)
 - [] Ratelimiting (upstash)
